@@ -1,0 +1,67 @@
+main{
+    background-image: url('https://preview.redd.it/ddmq9o6s99921.png?auto=webp&s=814046c4128c0b09d979bfe473faa57ce9b9bb07');
+}
+h1{
+    font-family: Helvetica;
+    font-size:100px;
+    font-weight:bold;
+    color:khaki;
+    text-align: center;
+    width: 100%;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg?_gl=1*g6i670*_ga*MzY3NzEzMDE2My4xNjY4MDY5NDY5*_ga_3LRZM6TM9L*MTY2ODY4MDIyOS4zMi4xLjE2Njg2ODAyMzEuMC4wLjA.");
+    opacity: 0.5;
+}
+
+img{
+    position:relative;
+    left:400px;
+    margin:0 auto;
+}
+
+
+.brushes{
+    background-color: mediumspringgreen;
+    font-family: Helvetica;
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+    margin:0 auto;
+}
+
+.frames{
+    background-color:lightcoral;
+    font-family: Helvetica;
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+    margin:0 auto;
+
+}
+
+.paint{
+    background-color:skyblue;
+    font-family: Helvetica;
+    font-size:32px;
+    color:white;
+    font-weight:bold;
+    margin:0 auto;
+
+}
+
+h4{
+    font-weight: bold;
+}
+
+p{
+    font-family:Helvetica;
+}
+
+.price{
+    font-family:Helvetica;
+    font-weight: bold;
+    color:blue;
+}
+
+.ghost{
+    float: right;
+}
