@@ -17,6 +17,31 @@
 }
 
 
+
+a:link {
+    text-decoration: none;
+    background-color: darkslategrey; 
+    color:white;
+
+}
+a:visited { 
+    text-decoration: none; 
+    background-color: darkslategrey; 
+    color:white;
+
+}
+a:active { 
+    text-decoration: none;
+    background-color: darkslategrey; 
+    color:white;
+
+}
+
+a:hover{
+    background-color: black;
+    color:goldenrod
+}
+
 nav{
     position:relative;
     top:70px;
