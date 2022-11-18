@@ -11,25 +11,20 @@
     text-align:center;
 }
 
-.vupros{
-    margin:0 auto;
-
-}
-
-
-
 a:link {
     text-decoration: none;
     background-color: darkslategrey; 
     color:white;
 
 }
+
 a:visited { 
     text-decoration: none; 
     background-color: darkslategrey; 
     color:white;
 
 }
+
 a:active { 
     text-decoration: none;
     background-color: darkslategrey; 
@@ -37,9 +32,24 @@ a:active {
 
 }
 
+img{
+    animation: rotation 10s infinite linear;
+
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
 a:hover{
     background-color: black;
     color:goldenrod
+    border: 1px solid go;
 }
 
 nav{
@@ -70,7 +80,11 @@ h1{
     margin:0 auto;
     width:100%;
     color:blanchedalmond;
-    background-color: black;
+}
+
+h1:hover{
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 
 .sigma li:hover{
