@@ -4,18 +4,68 @@
     border-radius: 50%;
     display:block;
     clear: right;
-    background-color: darkslategrey;
+    background-color: darkslategrey !important;
     color:white;
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align:center;
+    z-index: 3;
 }
 
-.vupros{
-    margin:0 auto;
+
+
+*{
+    background-color:lightslategrey;
+    box-sizing: border-box;
 
 }
+
+main{
+    position:relative;
+    top:20px;
+    overflow: scroll;
+    background-image: url("https://www.meme-arsenal.com/memes/240c4c290945c38da26bfa5bbcb108e5.jpg");
+}
+
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.background{
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;}
+
+.sigma li:hover{
+    background-color: black;
+    color:goldenrod
+}
+.vladi h1{
+    position:fixed;
+    bottom:0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: beige;
+    width:100%;
+}
+
+img{
+    width:50%;
+    display:block;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
 a:link {
     text-decoration: none;
     background-color: darkslategrey; 
@@ -38,62 +88,4 @@ a:active {
 a:hover{
     background-color: black;
     color:goldenrod
-}
-
-
-nav{
-    position:relative;
-    top:40px;
-    display:table;
-    margin:10px auto;
-}
-
-*{
-    background-color:lightslategrey;
-    box-sizing: border-box;
-}
-
-main{
-    position:relative;
-    top:50px;
-    background-image: url("https://www.meme-arsenal.com/memes/240c4c290945c38da26bfa5bbcb108e5.jpg");
-}
-
-img{
-    margin:0 auto;
-}
-
-h1{
-    text-align: center;
-    font-family: Verdana;
-    font-size: 40px;
-    position:fixed;
-    z-index:2;
-    font-weight: bold;
-    margin:0 auto;
-    width:100%;
-    color:blanchedalmond;
-    background-color: black;
-}
-
-.sigma li:hover{
-    background-color: black;
-    color:goldenrod
-}
-.vladi h1{
-    position:fixed;
-    bottom:0px;
-    margin-bottom: 0px;
-    text-align: center;
-    color:red;
-    font-weight: bold;
-}
-
-img{
-    width:50%;
-    display:block;
-    border:0px solid green;
-    border-radius: 30px;
-    margin-left: auto;
-    margin-right:auto;
 }
